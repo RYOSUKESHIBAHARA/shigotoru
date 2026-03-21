@@ -1,0 +1,19 @@
+/*
+Theme Name: DENTAL-CLINIC
+Theme URI:https://www.sejuku.net/
+Description: 「さわやか歯科クリニック」公式サイト制作
+Version: 1.0.0
+Author: RYOSUKE SHIBAHARA
+Author URI:https://www.sejuku.net/
+*/
+
+.flexbox-container {
+   display: flex;
+   padding: 5px;
+   background-color: lightgreen;
+}
+.flexbox-item {
+   padding: 5px;
+   margin: 5px;
+   background-color: orange;
+}
