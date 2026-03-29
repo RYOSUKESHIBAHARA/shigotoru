@@ -7,13 +7,77 @@ Author: RYOSUKE SHIBAHARA
 Author URI:https://www.sejuku.net/
 */
 
-.flexbox-container {
+.header-container {
+   display: flex;
+   justify-content: space-between
+}
+
+img {
+   width: 100%;
+   height: 100%;
+
+}
+
+.nav-title {
+   margin: 30px;
+   a {
+      color: black;
+   }
+   
+}
+
+.medical-care {
+   background-color: aquamarine;
+   height: 200px;
+   font-size: 30px;
+}
+
+.flexbox-container1 {
    display: flex;
    padding: 5px;
-   background-color: lightgreen;
 }
+
 .flexbox-item {
    padding: 5px;
    margin: 5px;
    background-color: orange;
+
+}
+
+.home-title {
+  position: relative;
+    top: 50%;
+    left: 50%;
+}
+
+.back-img {
+   height: 300px;
+   background-image:url( images/img3.jpg) ;
+   opacity: 0.3;
+}
+
+.flexbox-taisetsu {
+   display: flex;
+   justify-content: space-around;
+}
+
+#taisetsu-item01 {
+background-image:url( images/img4.jpg) ;
+width: 200px; /* 円の幅 */
+height: 200px; /* 円の高さ */
+border-radius: 50%; /* 角丸を50%にして円形に */
+}
+
+#taisetsu-item02 {
+width: 200px; /* 円の幅 */
+height: 200px; /* 円の高さ */
+border-radius: 50%; /* 角丸を50%にして円形に */
+background-image:url( images/img2.jpg) ;
+}
+
+#taisetsu-item03 {
+width: 200px; /* 円の幅 */
+height: 200px; /* 円の高さ */
+border-radius: 50%; /* 角丸を50%にして円形に */
+background-image:url( images/img3.jpg) ;
 }
