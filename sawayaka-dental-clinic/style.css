@@ -51,7 +51,7 @@ img {
 }
 
 .back-img {
-   height: 300px;
+   height: 1000px;
    background-image:url( images/img3.jpg) ;
    opacity: 0.3;
 }
@@ -62,22 +62,78 @@ img {
 }
 
 #taisetsu-item01 {
-background-image:url( images/img4.jpg) ;
-width: 200px; /* 円の幅 */
-height: 200px; /* 円の高さ */
+width: 250px; /* 円の幅 */
+height: 250px; /* 円の高さ */
 border-radius: 50%; /* 角丸を50%にして円形に */
+background-image:url( images/img4.jpg) ;
+background-size: cover;
+margin-top: 50px;
 }
 
 #taisetsu-item02 {
-width: 200px; /* 円の幅 */
-height: 200px; /* 円の高さ */
+width: 250px; /* 円の幅 */
+height: 250px; /* 円の高さ */
 border-radius: 50%; /* 角丸を50%にして円形に */
 background-image:url( images/img2.jpg) ;
+background-size: cover;
+margin-top: 50px;
 }
 
 #taisetsu-item03 {
-width: 200px; /* 円の幅 */
-height: 200px; /* 円の高さ */
+width: 250px; /* 円の幅 */
+height: 250px; /* 円の高さ */
 border-radius: 50%; /* 角丸を50%にして円形に */
 background-image:url( images/img3.jpg) ;
+background-size: cover;
+margin-top: 50px;
+}
+
+.flexbox-text {
+   display: flex;
+   justify-content: space-around;
+}
+
+#text-item01 {
+   background-color: white;
+   margin: 5px;
+   border-radius: 10px;
+   height: 500px;
+   width: 400px;
+   text-align: center;
+}
+
+#text-item02 {
+   background-color: white;
+   margin: 5px;
+   border-radius: 10px;
+   height: 500px;
+   width: 400px;
+   text-align: center;
+}
+
+#text-item03 {
+   background-color: white;
+   margin: 5px;
+   border-radius: 10px;
+   height: 500px;
+   width: 400px;
+   text-align: center;
+}
+
+.flexbox-director {
+   display: flex;
+}
+
+#director-img {
+   width: 100%;
+   margin : 60px 0px 60px 60px;
+   border-radius: 20px;
+}
+
+#director-text {
+   width: 100%;
+   margin : 60px 60px 60px 0px;
+   border-radius: 20px;
+   text-align: center;
+   background-color: aquamarine;
 }
