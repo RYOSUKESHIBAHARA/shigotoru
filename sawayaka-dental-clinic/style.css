@@ -29,12 +29,20 @@ Author URI:https://www.sejuku.net/
    
 }
 
+.nav-title a {
+   margin: 10px;
+}
+
 .home_container {
    position: relative;
 }
 
-.main-img {
+.pc-img {
    width: 100%;
+}
+
+.sp-img {
+   display: none;
 }
 
 .title-img{
@@ -43,7 +51,6 @@ Author URI:https://www.sejuku.net/
    left: 50px;
 
 }
-
 
 .medical-care{
    background-color: #e5f4e9;
@@ -200,11 +207,7 @@ background-color: white;
    justify-content:center;
 }
 
-#director-img {
-    background-image:url(images/doctor2_matsumoto.jpg) ;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: right;
+.director-img {
    width: 100%;
    margin : 60px 0px 60px 60px;
 }
@@ -293,9 +296,16 @@ footer{
 }
 
 @media screen and (max-width: 1024px) {
-    .main-img{
-       background-image: url('images/image5_resize.jpg');
+    .pc-img{
+         display: none;
     }
+    .sp-img {
+         display:block;
+         width: 100%;
+    }
+    .title-img {
+         display: none;
+    }     
     .header-container {
          display: block;
 
@@ -326,7 +336,15 @@ footer{
          align-items: center;
     }
     .flexbox-director {
-         display: block
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+    }
+    .director-img {
+         margin: 0;
+    }
+    #director-text {
+         margin: 0;
     }
      .information {
          width: auto;
@@ -340,6 +358,16 @@ footer{
          flex-direction: column;
          flex-wrap: wrap;
          align-items: center;
+         width: 100%;
     }
-   
+    .information-flexbox {
+         width: 100%;
+    }
+    .yoyaku {
+         width: 100%;
+    }
+
+     table {
+         width: 100%;
+     }
    }
