@@ -109,12 +109,14 @@ Author URI:https://www.sejuku.net/
 .flexbox-taisetsu00 {
    display: flex;
    justify-content: space-around;
+   width: 100%;
 }
 
 .flexbox-taisetsu01 {
    display: flex;
    flex-direction: column;
    align-items: center;
+   width: 100%;
    
 }
 
@@ -132,6 +134,16 @@ Author URI:https://www.sejuku.net/
    align-items: center;
    
    
+}
+.flexbox-taisetsu01{
+   width: 33%;
+}
+
+.flexbox-taisetsu02{
+   width: 33%;
+}
+.flexbox-taisetsu03{
+   width: 33%;
 }
 
 #taisetsu-item01 {
@@ -172,10 +184,10 @@ margin-top: 50px;
    margin: 5px;
    padding: 20px;
    border-radius: 10px;
-   height: 300px;
-   width: 400px;
+   width: 100%;
    text-align: center;
    line-height: 40px;
+   box-sizing: border-box;
 }
 
 #text-item02 {
@@ -183,10 +195,10 @@ background-color: white;
    margin: 5px;
    padding: 20px;
    border-radius: 10px;
-   height: 300px;
-   width: 400px;
+   width: 100%;
    text-align: center;
    line-height: 40px;
+   box-sizing: border-box;
 
 }
 
@@ -195,10 +207,10 @@ background-color: white;
    margin: 5px;
    padding: 20px;
    border-radius: 10px;
-   height: 300px;
-   width: 400px;
+   width: 100%;
    text-align: center;
    line-height: 40px;
+   box-sizing: border-box;
 
 }
 
@@ -207,6 +219,10 @@ background-color: white;
    justify-content:center;
 }
 
+.director-box {
+   width: 50%;
+    }
+
 .director-img {
    width: 100%;
    margin : 60px 0px 60px 60px;
@@ -214,8 +230,8 @@ background-color: white;
 
 #director-text {
    color: white;
-   width: 100%;
-   margin : 60px 60px 60px 0px;
+   width: 50%;
+   margin : 245px 60px 60px 0px;
    border-radius: 20px;
    text-align: center;
    background-color: #52b567;
@@ -295,6 +311,41 @@ footer{
     text-align: left;
 }
 
+.google-map {
+   width: 50%;
+}
+
+iframe {
+   width: 100%;
+}
+
+/* ハンバーガーメニュー用 */
+#m-navi {
+   background-color: #00f;
+   position: fixed;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   display: none;
+   z-index: 9999;
+}
+
+.active {
+   display: block;
+   
+}
+
+.hbmenu, .opbtn {
+   position: fixed;
+   top: 30px;
+   right: 20px;
+   background-color: #ccc;
+}
+
+
+
+
 @media screen and (max-width: 1024px) {
     .pc-img{
          display: none;
@@ -340,11 +391,13 @@ footer{
          flex-direction: column;
          align-items: center;
     }
+
     .director-img {
          margin: 0;
     }
     #director-text {
          margin: 0;
+         width: 50%;
     }
      .information {
          width: auto;
