@@ -1,0 +1,35 @@
+.staff-title {
+    text-align: center;
+}
+
+.flexbox-staff {
+    display: flex;
+    justify-content:center;
+    margin: 5% 1% 0 1%;
+}
+
+.staff-box {
+    width: 100%;
+}
+
+.staff-img {
+    width: 100%;
+}
+
+#staff-text {
+    padding: 0px 10px;
+}
+#staff-text h3{
+    text-align:center;
+}
+
+.staff-item{
+    width: 100%;
+    background-color: #52b567;
+    border-radius: 20px;
+}
+
+.staff-img3{
+    width: 150%;
+    overflow: hidden;
+}
