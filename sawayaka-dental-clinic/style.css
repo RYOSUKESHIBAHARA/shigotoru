@@ -106,6 +106,10 @@ Author URI:https://www.sejuku.net/
   padding: 30px 0px;
    
 }
+.taisetsu-title h2{
+   text-align: center;
+   font-size: 30px;
+}
 .flexbox-taisetsu00 {
    display: flex;
    justify-content: space-around;
@@ -184,7 +188,7 @@ margin-top: 50px;
    margin: 5px;
    padding: 20px;
    border-radius: 10px;
-   width: 100%;
+   width: 80%;
    text-align: center;
    line-height: 40px;
    box-sizing: border-box;
@@ -195,7 +199,7 @@ background-color: white;
    margin: 5px;
    padding: 20px;
    border-radius: 10px;
-   width: 100%;
+   width: 80%;
    text-align: center;
    line-height: 40px;
    box-sizing: border-box;
@@ -207,13 +211,17 @@ background-color: white;
    margin: 5px;
    padding: 20px;
    border-radius: 10px;
-   width: 100%;
+   width: 80%;
    text-align: center;
    line-height: 40px;
    box-sizing: border-box;
 
 }
 
+.director-title h2{
+   text-align: center;
+   font-size: 30px;
+}
 .flexbox-director {
    display: flex;
    justify-content:center;
@@ -246,6 +254,9 @@ background-color: white;
 
 }
 
+.goyoyaku {
+   width: 100%;
+}
 
 table {
   text-align: center;
@@ -279,6 +290,7 @@ table td {
 .access-flexbox{
    display: flex;
    justify-content: space-around;
+   align-items:center;
 }
 
 footer{
@@ -294,6 +306,9 @@ footer{
    text-align:center;
    color: white;
 }
+.information-text{
+   width: 100%;
+}
 
 .footer-flexbox {
    display: flex;
@@ -304,6 +319,7 @@ footer{
 .footer-navi {
    width: 40%;
     line-height: 40px;
+
 }
 
 .footer-navi p{
@@ -319,9 +335,8 @@ iframe {
    width: 100%;
 }
 
-/* ハンバーガーメニュー用 */
 #m-navi {
-   background-color: #00f;
+   background-color: #52b567;
    position: fixed;
    top: 0;
    left: 0;
@@ -331,22 +346,68 @@ iframe {
    z-index: 9999;
 }
 
-.active {
+.hbmenu {
+   display: none;
+}
+
+@media screen and (max-width: 1024px) {
+
+   /* ハンバーガーメニュー用 */
+
+.hbmenu {
+   display: block;
+}
+
+#m-navi.active{
    display: block;
    
 }
 
-.hbmenu, .opbtn {
+.hbmenu,.opbtn {
    position: fixed;
    top: 30px;
    right: 20px;
-   background-color: #ccc;
+   background-color: white;
+   width: 50px;
+   height: 50px;
 }
 
+.hbicon {
+   background-color: white;
+}
 
+.hbtitle {
+   padding-top: 20px;
+   padding-left:40px;
+}
 
+ul {
+   list-style: none;
+   line-height: 3.0;
+   padding-inline-start:0;
+}
 
-@media screen and (max-width: 1024px) {
+.navi-itemo{
+   font-size: 15px;
+   padding-left: 40px;
+   list-style-position: inside;
+   border-bottom: 1px solid white;
+   text-decoration-color: black;
+}
+
+.navi-itemo a {
+   text-decoration: none;
+   text-decoration-color: black;
+}
+
+.footer-spnavi {
+   display: none;
+
+}
+.hbicon {
+   width: 100%;
+}
+
     .pc-img{
          display: none;
     }
@@ -422,5 +483,25 @@ iframe {
 
      table {
          width: 100%;
-     }
+      }
+      .footer-flexbox {
+         display: flex;
+         flex-direction: column;
+         flex-wrap: wrap;
+         align-items: center;
+         width: 100%;
+      }
+      .footer-information {
+         width: 100%;
+      }
+      .footer-navi {
+         width: 100%;
+      }
+      .footer-navi p{
+         text-align: center;
+      }
+      .flexbox-taisetsu01,.flexbox-taisetsu02,.flexbox-taisetsu03{
+         width: 80%;
+         box-sizing:content-box;
+      }
    }
