@@ -6,6 +6,8 @@ let opbtn = document.getElementById("op")
 clbtn.addEventListener('click', () => {
   hbmenu.classList.add('active');
 
+// console.log(clbtn);
+
 });
 
 opbtn.addEventListener('click', () => {
