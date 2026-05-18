@@ -17,7 +17,10 @@
 }
 
 #staff-text {
-    padding: 0px 10px;
+    padding: 0px 10px 0px 10px;
+    width: 100%;
+    box-sizing: border-box;
+
 }
 #staff-text h3{
     text-align:center;
@@ -30,6 +33,13 @@
 }
 
 .staff-img3{
-    width: 150%;
+    width: 100%;
     overflow: hidden;
+}
+
+@media screen and (max-width: 1024px) {
+    .flexbox-staff{
+        display: flex;
+        flex-direction:column;
+    }
 }
