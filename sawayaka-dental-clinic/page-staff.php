@@ -1,0 +1,66 @@
+  <?php get_header(); ?>
+
+        <div class="staff-title">
+            <h2>スタッフ紹介</h2>
+        </div>
+        <div class="flexbox-staff">
+            <div class="staff-box">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/doctor2_matsumoto.jpg" class="staff-img" />
+            </div>
+            <div id="staff-text" class="staff-item">
+                <h3>松本 貴子 まつもとたかこ</h3>
+                <p>
+                    患者さん一人ひとりに寄り添い、安心して通える歯科医院を目指しています。
+                    痛みの少ない治療と、わかりやすい説明を心がけ、地域の皆さまのお口の健康をサポートいたします。
+                    歯医者が苦手な方も、リラックスできるよう丁寧に対応いたしますので、どうぞ安心してご来院ください。
+                </p>
+                <p>
+                    得意な治療: むし歯治療・予防歯科・小児歯科
+                </p>
+                <p>
+                    趣味: 旅行・読書・カフェ巡り
+                </p>
+            </div>
+        </div>
+
+        <div class="flexbox-staff">
+            <div class="staff-box">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/doctor1_tanaka.jpg" class="staff-img" />
+            </div>
+            <div id="staff-text" class="staff-item">
+                <h3>田中 健吾 たなかけんご</h3>
+                <p>
+                    お口の健康は、全身の健康にも大きく関わっています。
+                    患者さんが長く健康な歯を維持できるよう、最適な治療とアドバイスを提供いたします。
+                    治療に対する不安や疑問があれば、何でもお気軽にご相談ください。
+                </p>
+                <p>
+                    得意な治療: 口腔外科・親知らずの抜歯・歯周病治療
+                </p>
+                <p>
+                    趣味: ランニング・映画鑑賞・登山
+                </p>
+            </div>
+        </div>
+
+        <div class="flexbox-staff">
+            <div class="staff-box">
+                 <img src="<?php echo get_template_directory_uri(); ?>/images/staff1suzuki.png" class="staff-img3" />
+            </div>
+            <div id="staff-text" class="staff-item">
+                <h3>鈴木 由佳 すずきゆか</h3>
+                <p>
+                    患者さんのお口の健康を守るため、クリーニングや予防ケアを担当しています。
+                    歯磨きのコツや、デンタルフロスの使い方など、日々のケアについてもお伝えしていますので、お気軽にご相談ください。
+                </p>
+                <p>
+                    得意な分野: クリーニング・ホワイトニング・歯磨き指導
+                </p>
+                <p>
+                    趣味: ヨガ・お菓子作り・音楽鑑賞
+                </p>
+            </div>
+        </div>    
+        
+    </body>
+ <?php get_footer(); ?>

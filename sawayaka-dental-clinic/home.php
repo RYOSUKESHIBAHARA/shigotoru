@@ -1,0 +1,184 @@
+         <?php get_header();?>
+        <!-- メインビジュアル -->
+         <div class="home">
+            <div class="home_container">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/メインビジュアル2.png" class="pc-img" />
+                <img src="<?php echo get_template_directory_uri(); ?>/images/image5_resize.jpg" class="sp-img" />
+         </div>
+        <!-- メインビジュアルここまで -->
+
+        <!-- 診療内容 -->
+         <div id="medical-care">
+         <h2>診療案内</h2>
+          <div class="flexbox-container1">
+           <div id="item01" class="flexbox-item">
+               <h3>一般歯科</h3>
+               <p>むし歯や歯周病の治療を行い<br>
+                患者さんの健康な歯を守るための<br>
+                基本的なケアを提供します。<br>
+                痛みを抑えた治療を心がけ<br>
+                できるだけ歯を残す治療を大切にしています</p>
+                  <p>・むし歯の治療・詰め物・かぶせ物<br>
+                  ・歯周病の治療・歯石除去<br>
+                  ・神経の治療（根管治療）</p>
+           </div>
+           <div id="item02" class="flexbox-item">
+               <h3>小児歯科</h3>
+                  <p>お子さまの歯の健康を守るために<br>
+                    むし歯の予防と治療を中心に<br>
+                    楽しく通える歯医者を目指しています。<br>
+                  初めての歯医者さんでも安心できるよう<br>
+                  やさしく丁寧な対応を心がけています。</p>
+                  <p>・乳歯のむし歯治療<br>
+                  ・シーラント（むし歯予防処置）<br>
+                  ・フッ素塗布・歯磨き指導</p>
+           </div>
+           <div id="item03" class="flexbox-item">
+                <h3>口腔外科</h3>
+                  <p>親知らずの抜歯や顎関節症など<br>
+                    お口の中の外科的な治療を<br>
+                    専門的に行います。<br>
+                  痛みや負担の少ない治療を心がけ<br>
+                  患者さん一人ひとりに合わせた適切な治療を提供します</p>
+                  <p>・親知らずの抜歯<br>
+                  ・顎関節症の治療 口内炎・粘膜疾患の診療</p>
+           </div>
+           <div id="item04" class="flexbox-item">
+                <h3>予防歯科</h3>
+                  <p>「痛くなってから行く」のではなく<br>
+                    むし歯や歯周病を防ぐことを<br>
+                    目的とした診療です。<br>
+                  定期的な検診とクリーニングで<br>
+                  お口の健康を長く保ちましょう。</p>
+                  <p>・定期検診・クリーニング（PMTC）<br>
+                  ・フッ素塗布で歯を強くする<br>
+                  ・歯周病の予防と早期発見</p>
+           </div>
+       </div>
+    </div>
+
+       <!-- さわやか歯科医院が大切にしていること -->
+       <div class="back-img">
+        <div id="taisetsu-title">
+            <h2>大切にしていること</h2>
+        </div>
+          <div class="flexbox-taisetsu00">
+            <div class="flexbox-taisetsu01">
+                <div id="taisetsu-item01" class="taisetsu-item"></div>
+                 <div id="text-item01" class="taisetsu-item">
+                    <h3>痛みの少ないやさしい治療</h3>
+                    <p>麻酔の工夫や最新の技術を取り入れ
+                        痛みを最小限に抑えた治療 を心がけています。
+                        歯医者が苦手な方も
+                        安心して通っていただけるよう配慮しています。</p>
+                </div>
+            </div>
+
+            <div class="flexbox-taisetsu02">
+                <div id="taisetsu-item02" class="taisetsu-item"></div>
+                <div id="text-item02" class="taisetsu-item">
+                    <h3>お口の健康を守る予防歯科</h3>
+                    <p>「痛くなったら行く」のではなく
+                        むし歯や歯周病を防ぐ予防ケアを大切にしています。
+                        定期検診・クリーニングで
+                        大切な歯を一生涯守ります。</p>
+                </div>
+            </div>
+
+             <div class="flexbox-taisetsu03">
+                <div id="taisetsu-item03" class="taisetsu-item"></div>
+                <div id="text-item03" class="taisetsu-item">
+                    <h3>清潔で最新の設備</h3>
+                    <p>患者さんが安心して治療を受けられるよう
+                        徹底した衛生管理 と 最新の歯科医療機器を導入。
+                        快適な環境で、質の高い治療を提供します。</p>
+                </div>
+            </div>
+          </div>              
+        </div>
+
+        <!-- 院長あいさつ -->
+         <div id="director-title">
+            <h2>院長挨拶</h2>
+        </div>
+         <div class="flexbox-director">
+            <div class="director-box">
+                <img scr="<?php echo get_template_directory_uri(); ?>/images/doctor2_matsumoto.jpg" class="director-img"/>
+            </div>
+            <div id="director-text" class="director-item">
+                <h3>さわやか歯科クリニック<br>
+                    院長 松本 貴子</h3>
+                <p>みなさま、こんにちは。<br>
+                   「さわやか歯科クリニック」院長の松本 貴子です。<br>
+                    当院は、小さなお子さまからご年配の方まで<br>
+                    安心して通える歯科クリニック を目指しています。<br>
+                    歯医者に苦手意識を持つ方にも<br>
+                    やさしく丁寧な治療 を提供し、リラックスできる環境を整えています。<br>
+                    痛みを抑えた治療 や わかりやすい説明 を心がけ<br>
+                    不安なく通えるよう努めています。<br>
+                    また、歯の健康は全身の健康につながるため<br>
+                    治療だけでなく予防歯科にも力を入れています。<br>
+                    定期検診やクリーニングを通じて<br>
+                    みなさまの大切な歯を守り続けるお手伝いをしていきます。<br>
+                    地域のみなさまにとって、「ここなら安心して通える」 と思っていただけるクリニックを目指し<br>
+                    スタッフ一同、努力してまいります。<br>
+                    どうぞよろしくお願いいたします。</p>
+            </div>
+        </div>
+
+        <!-- 医院のご案内 -->
+         <div class="information">
+            <div class="information-title">
+                <h2>医院のご案内</h2>
+            </div>
+            <div class="access-flexbox">
+            <div class="information-flexbox">
+         <div class="yoyaku">
+            <img scr="<?php echo get_template_directory_uri(); ?>/images/goyoyaku.png" class="goyoyaku"/>
+         </div>
+            <table>
+                <tbody>
+                    <tr>
+                        <th>診療時間</th>
+                        <th>月</th>
+                        <th>火</th>
+                        <th>水</th>
+                        <th>木</th>
+                        <th>金</th>
+                        <th>土</th>
+                        <th>日</th>
+                    </tr>
+                    <tr>
+                        <td>9:30 - 13:00</td>
+                        <td>〇</td>
+                        <td>〇</td>
+                        <td>-</td>
+                        <td>〇</td>
+                        <td>〇</td>
+                        <td>〇</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>14:30 - 18:30</td>
+                        <td>〇</td>
+                        <td>〇</td>
+                        <td>-</td>
+                        <td>〇</td>
+                        <td>〇</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                </tbody>
+            </table>
+         </div>
+         <div class="google-map">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.2846861742496!2d139.7470609764927!3d35.66999157259091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b927c298fb3%3A0xea0b60b137153378!2z44CSMTA1LTAwMDEg5p2x5Lqs6YO95riv5Yy66JmO44OO6ZaA77yR5LiB55uu77yTIOOCsOODreODvOODkOODq-OCueOCr-OCqOOCog!5e0!3m2!1sja!2sjp!4v1776088935047!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <p>〒105-0001<br>
+                東京都港区虎ノ門１丁目３−１<br>
+                東京メトロ 虎ノ門駅より直結・徒歩1分<br>
+                駐車場はないので、近隣のコインパーキングをご利用ください</p>
+         </div>
+         </div>
+         <?php get_footer(); ?>
+
+ 
